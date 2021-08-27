@@ -1,0 +1,6 @@
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Utilidades\bin\Debug\Utilidades.dll
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Utilidades\bin\Debug\Utilidades.pdb
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Utilidades\obj\Debug\Utilidades.csprojAssemblyReference.cache
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Utilidades\obj\Debug\Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Utilidades\obj\Debug\Utilidades.dll
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Utilidades\obj\Debug\Utilidades.pdb

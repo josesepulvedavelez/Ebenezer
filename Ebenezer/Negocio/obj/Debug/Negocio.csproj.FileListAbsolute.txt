@@ -1,0 +1,11 @@
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Negocio\bin\Debug\Negocio.dll
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Negocio\bin\Debug\Negocio.pdb
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Negocio\bin\Debug\Datos.dll
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Negocio\bin\Debug\Entidades.dll
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Negocio\bin\Debug\Datos.pdb
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Negocio\bin\Debug\Entidades.pdb
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Negocio\obj\Debug\Negocio.dll
+C:\Users\NECSOFT\Documents\GitHub\Ebenezer\Ebenezer\Negocio\obj\Debug\Negocio.pdb
