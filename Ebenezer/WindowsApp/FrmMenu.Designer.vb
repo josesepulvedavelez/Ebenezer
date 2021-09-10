@@ -35,6 +35,9 @@ Partial Class FrmMenu
         Me.btnVehivulo = New System.Windows.Forms.RibbonButton()
         Me.RibbonPanel4 = New System.Windows.Forms.RibbonPanel()
         Me.btnMantenimientos = New System.Windows.Forms.RibbonButton()
+        Me.RibbonTab3 = New System.Windows.Forms.RibbonTab()
+        Me.RibbonPanel5 = New System.Windows.Forms.RibbonPanel()
+        Me.btnInformeMantenimientos = New System.Windows.Forms.RibbonButton()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.lblUsuario = New System.Windows.Forms.ToolStripStatusLabel()
@@ -45,9 +48,6 @@ Partial Class FrmMenu
         Me.ToolStripStatusLabel3 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.lblHora = New System.Windows.Forms.ToolStripStatusLabel()
         Me.temporalizador = New System.Windows.Forms.Timer(Me.components)
-        Me.RibbonTab3 = New System.Windows.Forms.RibbonTab()
-        Me.RibbonPanel5 = New System.Windows.Forms.RibbonPanel()
-        Me.btnInformeMantenimientos = New System.Windows.Forms.RibbonButton()
         Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -143,6 +143,26 @@ Partial Class FrmMenu
         Me.btnMantenimientos.SmallImage = CType(resources.GetObject("btnMantenimientos.SmallImage"), System.Drawing.Image)
         Me.btnMantenimientos.Text = "Mantenimientos"
         '
+        'RibbonTab3
+        '
+        Me.RibbonTab3.Name = "RibbonTab3"
+        Me.RibbonTab3.Panels.Add(Me.RibbonPanel5)
+        Me.RibbonTab3.Text = "Informes"
+        '
+        'RibbonPanel5
+        '
+        Me.RibbonPanel5.Items.Add(Me.btnInformeMantenimientos)
+        Me.RibbonPanel5.Name = "RibbonPanel5"
+        Me.RibbonPanel5.Text = ""
+        '
+        'btnInformeMantenimientos
+        '
+        Me.btnInformeMantenimientos.Image = CType(resources.GetObject("btnInformeMantenimientos.Image"), System.Drawing.Image)
+        Me.btnInformeMantenimientos.LargeImage = CType(resources.GetObject("btnInformeMantenimientos.LargeImage"), System.Drawing.Image)
+        Me.btnInformeMantenimientos.Name = "btnInformeMantenimientos"
+        Me.btnInformeMantenimientos.SmallImage = CType(resources.GetObject("btnInformeMantenimientos.SmallImage"), System.Drawing.Image)
+        Me.btnInformeMantenimientos.Text = "Mantenimientos"
+        '
         'StatusStrip1
         '
         Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
@@ -203,26 +223,6 @@ Partial Class FrmMenu
         '
         'temporalizador
         '
-        '
-        'RibbonTab3
-        '
-        Me.RibbonTab3.Name = "RibbonTab3"
-        Me.RibbonTab3.Panels.Add(Me.RibbonPanel5)
-        Me.RibbonTab3.Text = "Informes"
-        '
-        'RibbonPanel5
-        '
-        Me.RibbonPanel5.Items.Add(Me.btnInformeMantenimientos)
-        Me.RibbonPanel5.Name = "RibbonPanel5"
-        Me.RibbonPanel5.Text = ""
-        '
-        'btnInformeMantenimientos
-        '
-        Me.btnInformeMantenimientos.Image = CType(resources.GetObject("btnInformeMantenimientos.Image"), System.Drawing.Image)
-        Me.btnInformeMantenimientos.LargeImage = CType(resources.GetObject("btnInformeMantenimientos.LargeImage"), System.Drawing.Image)
-        Me.btnInformeMantenimientos.Name = "btnInformeMantenimientos"
-        Me.btnInformeMantenimientos.SmallImage = CType(resources.GetObject("btnInformeMantenimientos.SmallImage"), System.Drawing.Image)
-        Me.btnInformeMantenimientos.Text = "Mantenimientos"
         '
         'FrmMenu
         '
