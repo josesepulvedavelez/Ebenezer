@@ -100,4 +100,4 @@ DBCC CHECKIDENT (Vehiculo, RESEED, 0);
 DBCC CHECKIDENT (Cliente, RESEED, 0);
 DBCC CHECKIDENT (Usuario, RESEED, 0);
 
-
+select * from Usuario;

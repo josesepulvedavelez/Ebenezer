@@ -32,6 +32,7 @@ Partial Class FrmLogin
         Me.txtContraseña = New System.Windows.Forms.TextBox()
         Me.cboRol = New System.Windows.Forms.ComboBox()
         Me.btnLogin = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -125,11 +126,22 @@ Partial Class FrmLogin
         Me.btnLogin.Text = "Login"
         Me.btnLogin.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(19, 724)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(388, 54)
+        Me.Button1.TabIndex = 8
+        Me.Button1.Text = "Cancelar"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'FrmLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(432, 765)
+        Me.ClientSize = New System.Drawing.Size(432, 807)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.cboRol)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.lblTitulo)
@@ -140,9 +152,10 @@ Partial Class FrmLogin
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.MaximizeBox = False
         Me.Name = "FrmLogin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "FrmLogin"
+        Me.Text = "LOGIN"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -158,4 +171,5 @@ Partial Class FrmLogin
     Friend WithEvents txtContraseña As TextBox
     Friend WithEvents cboRol As ComboBox
     Friend WithEvents btnLogin As Button
+    Friend WithEvents Button1 As Button
 End Class

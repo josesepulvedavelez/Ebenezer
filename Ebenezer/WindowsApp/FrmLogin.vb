@@ -23,6 +23,8 @@ Public Class FrmLogin
             result = usuarioBll.Loguear(usuarioEnt)
 
             If result = True Then
+                Me.txtContraseña.Text = String.Empty
+
                 FrmMenu.lblUsuario.Text = usuarioEnt.Usuario
                 FrmMenu.lblRol.Text = usuarioEnt.Rol
                 FrmMenu.Show()
@@ -30,5 +32,9 @@ Public Class FrmLogin
                 MessageBox.Show("Usuario, contraseña o rol incorrectos", "", MessageBoxButtons.OK, MessageBoxIcon.Error)
             End If
         End If
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Application.ExitThread()
     End Sub
 End Class
